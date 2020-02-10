@@ -8,11 +8,9 @@ import org.kohsuke.args4j.CmdLineParser;
 public class LDA {
 	
 	public static void main(String[] args) {
-		for(int i = 1; i <= 1; i++) {
+		
 			LDACmdOption option = new LDACmdOption();
 			CmdLineParser parser = new CmdLineParser(option);
-			args = new String[]{"-est", "-dfile", "train_new.dat", "-dir", "models/test", "-etopics", "18", "-stopics", "2", "-ttopics", "16", "-twords", "20", "-alpha_e", "0.0005", "-beta_e", "1.5", "-alpha_t", "0.0006", "-beta_t", "1", "-alpha_s", "0.225", "-beta_s", "1"};
-			//args = new String[] {"-inf", "-dir", "models/fold/10/"+i, "-model", "model-final", "-niters", "1000", "-twords", "20", "-dfile", "test10.dat"};
 			try {
 				if (args.length == 0){
 					showHelp(parser);
@@ -46,7 +44,7 @@ public class LDA {
 				return;
 			}
 
-		}
+		
 		
 	}
 	
