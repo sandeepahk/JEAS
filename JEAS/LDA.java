@@ -8,7 +8,6 @@ import org.kohsuke.args4j.CmdLineParser;
 public class LDA {
 	
 	public static void main(String[] args) {
-		
 			LDACmdOption option = new LDACmdOption();
 			CmdLineParser parser = new CmdLineParser(option);
 			try {
