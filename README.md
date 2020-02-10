@@ -5,13 +5,15 @@
 
 - Written by Sandeepa Kannangara, University of New South Wales, s.kannangara@unsw.edu.au, part of code is from http://gibbslda.sourceforge.net/.
 
-- This is a Java implementation of the joint entity-sentiment-issue (JESI) model for sentiment, entity and issue classification and extracting sentiment, entity and issue topics from text copara.
+- This is a Java implementation of the joint entity-sentiment-issue (JESI) model for sentiment, entity and issue classification and extracting sentiment, entity and issue topics from text copara. Please refer following publications related to this:
+http://unsworks.unsw.edu.au/fapi/datastream/unsworks:62271/SOURCE02?view=true
+https://link.springer.com/chapter/10.1007/978-3-030-29894-4_46
 
 ## Parameter Estimation ##
 
 Suppose that the current working directory is the home directory of JESI.
 
-    $ -est [-alpha_e <double>] [-alpha_s <double>] [-alpha_t <double>] [-beta_e <double>] [-beta_s <double>] [-beta_t <double>] [-etopics <int>] [-stopics <int>] [-etopict <int>] [-niters <int>] [-savestep <int>] [-twords <int>] –dir <string> -dfile <string>
+    $ -est [-alpha_e <double>] [-alpha_s <double>] [-alpha_t <double>] [-beta_e <double>] [-beta_s <double>] [-beta_t <double>] [-etopics <int>] [-stopics <int>] [-etopict <int>] [-niters <int>] [-savestep <int>] [-twords <int>] â€“dir <string> -dfile <string>
 
 in which (parameters in [ ] are optional):
 
